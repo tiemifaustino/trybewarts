@@ -21,12 +21,11 @@ const checkAgreement = document.getElementById('agreement');
 buttonSubmit.disabled = true;
 
 function habilitaBotao() {
-    if (checkAgreement.checked) {
-        buttonSubmit.disabled = false;
-    } else {
-        buttonSubmit.disabled = true;
-    }
+  if (checkAgreement.checked) {
+    buttonSubmit.disabled = false;
+  } else {
+    buttonSubmit.disabled = true;
+  }
 }
 
 checkAgreement.addEventListener('click', habilitaBotao);
-
