@@ -20,6 +20,7 @@
   width: 80px;
   margin-left: 20px;
 }
+
 #trybewarts-header-title {
   color: white;
   font-size: 50px;
@@ -34,7 +35,6 @@ main #evaluation-form {
   width: 675px;
   flex-direction: column;
   margin: 30px;
-  
 }
 
 main #trybewarts-forms-logo {

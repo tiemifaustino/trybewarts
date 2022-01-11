@@ -16,7 +16,6 @@ btnLogin.addEventListener('click', testeLogin);
 const buttonSubmit = document.getElementById('submit-btn');
 const checkAgreement = document.getElementById('agreement');
 
-
 /* Verificar se o checkbox está marcado. Source link: https://www.horadecodar.com.br/2020/07/28/como-verificar-se-um-checkbox-esta-checado-c-javascript-ou-jquery/ */
 buttonSubmit.disabled = true;
 
