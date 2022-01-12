@@ -108,10 +108,9 @@ h2 {
 }
 
 main #trybewarts-forms-logo {
-    height: 500px;
-    display: flex;
-    align-self: center;
-
+  height: 500px;
+  display: flex;
+  align-self: center;
 }
 
 #conteudo-centro {
