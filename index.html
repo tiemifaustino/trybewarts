@@ -63,29 +63,32 @@
                     <div id="conteudo-aprendizado">
                         <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
                         <br>
-                        <div>
-                            <label for="hofs">HoFs</label> 
-                            <input type="checkbox" value="HoFs" id="hofs">  
-                        </div>
-                        <div>
-                            <label for="Jest">Jest</label>
-                            <input type="checkbox" value="Jest" id="Jest">
-                        </div>
-                        <div>
-                            <label for="Promises">Promises</label>
-                            <input type="checkbox" value="Promises" id="Promises">
-                        </div>
-                        <div>
-                           <label for="React">React</label>
-                            <input type="checkbox" value="React" id="React"> 
-                        </div>
-                        <div>
-                            <label for="SQL">SQL</label>
-                            <input type="checkbox" value="SQL" id="SQL">
-                        </div>
-                        <div>
-                           <label for="Python">Python</label>
-                            <input type="checkbox" value="Python" id="Python"> 
+                        <div id="checkboxs-learn">
+                            
+                             <div>
+                                <input type="checkbox" value="HoFs" id="hofs">
+                                <label for="hofs">HoFs</label>   
+                            </div>  
+                            <div>
+                                <input type="checkbox" value="Jest" id="Jest">
+                                <label for="Jest">Jest</label>
+                            </div> 
+                            <div>
+                                <input type="checkbox" value="Promises" id="Promises">
+                                <label for="Promises">Promises</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" value="React" id="React">
+                                <label for="React">React</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" value="SQL" id="SQL">
+                                <label for="SQL">SQL</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" value="Python" id="Python"> 
+                                <label for="Python">Python</label>
+                            </div>
                         </div>
                     </div> 
                 </div>
@@ -94,33 +97,33 @@
                     <div>
                         
                     
-                    <label for="" id="label-rate">"Como você avalia a Trybewarts?"</label>
-                    <input type="radio" name="rate" id="1" value="1">
+                    <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
+                    <input type="radio" name="rate" id="1" value="1" class="avaluation">
                     <label for="1">1</label>
-                    <input type="radio" name="rate" id="2" value="2">
+                    <input type="radio" name="rate" id="2" value="2" class="avaluation">
                     <label for="2">2</label>
-                    <input type="radio" name="rate" id="3" value="3">
+                    <input type="radio" name="rate" id="3" value="3" class="avaluation">
                     <label for="3">3</label>
-                    <input type="radio" name="rate" id="4" value="4">
+                    <input type="radio" name="rate" id="4" value="4" class="avaluation">
                     <label for="4">4</label>
-                    <input type="radio" name="rate" id="5" value="5">
+                    <input type="radio" name="rate" id="5" value="5" class="avaluation">
                     <label for="5">5</label>
-                    <input type="radio" name="rate" id="6" value="6">
+                    <input type="radio" name="rate" id="6" value="6" class="avaluation">
                     <label for="6">6</label>
-                    <input type="radio" name="rate" id="7" value="7">
+                    <input type="radio" name="rate" id="7" value="7" class="avaluation">
                     <label for="7">7</label>
-                    <input type="radio" name="rate" id="8" value="8">
+                    <input type="radio" name="rate" id="8" value="8" class="avaluation">
                     <label for="8">8</label>
-                    <input type="radio" name="rate" id="9" value="9">
+                    <input type="radio" name="rate" id="9" value="9" class="avaluation">
                     <label for="9">9</label>
-                    <input type="radio" name="rate" id="10" value="10">
+                    <input type="radio" name="rate" id="10" value="10" class="avaluation">
                     <label for="10">10</label> 
                     </div>
                 </div>
                 <label for="" class="textarea">Deixe seu comentário:</label>
                 <textarea name="" id="textarea" cols="30" rows="10" maxlength="500"></textarea> 
-                <div>    
-                    <label for="agreement" id="label-infos">"Você concorda com o uso das informações acima?"</label>
+                <div class="textarea">    
+                    <label for="agreement" id="label-infos" >Você concorda com o uso das informações acima?</label>
                     <input type="checkbox" name="" id="agreement">
                 </div>
                 <button type="submit" id="submit-btn">Enviar</button>

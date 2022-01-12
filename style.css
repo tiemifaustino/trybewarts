@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: 'Baskervville', serif;
   font-weight: 600;
+  color: rgb(49, 49, 49);
 }
 
 body {
@@ -28,6 +29,13 @@ body {
   margin: 7px;
   border-radius: 10px;
   border: none;
+  font-size: 18px;
+  
+}
+
+#btn-login {
+  background-color: rgb(130, 0, 182);
+  color: white;
 }
 
 #input-name, #input-lastname, #input-email, #house {
@@ -58,6 +66,22 @@ body {
   width: 100px;
 }
 
+#submit-btn {
+  border-radius: 5px;
+  height: 40px;
+  border: none;
+  background-color: rgb(130, 0, 182);
+  font-size: 20px;
+  color: white;
+  margin: 10px 0 10px 0px;
+  
+}
+.textarea {
+ padding: 0px;
+ margin-bottom: 5px;
+ margin-top: 10px;
+}
+
 .trybewarts-header-logo {
   width: 80px;
   margin-left: 30px;
@@ -79,7 +103,7 @@ main #evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
-  margin: 30px;
+  margin: 20px;
   font-size: 1.2rem;
 }
 
@@ -99,6 +123,23 @@ main #trybewarts-forms-logo {
   gap: 5px
 }
 
+#label-content {
+  margin-left: 40px;
+  width: 450px;
+  
+}
+
+#checkboxs-learn {
+  display: flex;
+  gap: 35px;
+  flex-wrap: wrap;
+  width: 350px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-left: 40px;
+}
+
 #conteudo-aprendizado, #family {
   flex-grow: 1;
 }
@@ -110,7 +151,7 @@ main #trybewarts-forms-logo {
 #avaliacao {
   display: flex;
   margin: 15px 0;
-  align-items: stretch;
+
 }
 
 #avaliacao div {
@@ -134,4 +175,16 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+
+#trybewarts-forms-logo {
+  display: flex;
+  align-self: center;
+}
+
+.avaluation {
+  margin-left: 8px;
+  margin-right: -4px;
 }
