@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Baskervville', serif;
+  font-weight: 600;
 }
 
 .header {
@@ -28,6 +30,7 @@
 
 main {
   display: flex;
+  justify-content: center;
 }
 
 main #evaluation-form {
@@ -39,6 +42,11 @@ main #evaluation-form {
 
 main #trybewarts-forms-logo {
   height: 500px;
+}
+
+#conteudo-centro {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 #family {
