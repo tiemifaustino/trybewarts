@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Baskervville', serif;
+  font-family: Baskervville, serif;
   font-weight: 600;
   color: rgb(49, 49, 49);
 }
@@ -21,24 +21,25 @@ body {
 
 .trybewarts-login {
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
 }
 
-#email, #password, #btn-login {
+#email , #password , #btn-login {
   padding: 8px;
   margin: 7px;
   border-radius: 10px;
   border: none;
   font-size: 18px;
-  
 }
 
 #btn-login {
   background-color: rgb(130, 0, 182);
   color: white;
+  margin-right: 30px;
+  width: 100px;
 }
 
-#input-name, #input-lastname, #input-email, #house {
+#input-name , #input-lastname , #input-email , #house {
   border-radius: 8px;
   padding: 4px;
   border: none;
@@ -61,11 +62,6 @@ body {
   background-color: white;
 }
 
-#btn-login {
-  margin-right: 30px;
-  width: 100px;
-}
-
 #submit-btn {
   border-radius: 5px;
   height: 40px;
@@ -73,13 +69,12 @@ body {
   background-color: rgb(130, 0, 182);
   font-size: 20px;
   color: white;
-  margin: 10px 0 10px 0px;
-  
+  margin: 10px 0;
 }
+
 .textarea {
- padding: 0px;
- margin-bottom: 5px;
- margin-top: 10px;
+  margin-bottom: 5px;
+  margin-top: 10px;
 }
 
 .trybewarts-header-logo {
@@ -114,19 +109,20 @@ h2 {
 
 main #trybewarts-forms-logo {
   height: 500px;
+  display: flex;
+  align-self: center;
 }
 
 #conteudo-centro {
   display: flex;
   justify-content: center;
   margin: 15px 0;
-  gap: 5px
+  gap: 5px;
 }
 
 #label-content {
   margin-left: 40px;
   width: 450px;
-  
 }
 
 #checkboxs-learn {
@@ -140,12 +136,8 @@ main #trybewarts-forms-logo {
   margin-left: 40px;
 }
 
-#conteudo-aprendizado, #family {
+#conteudo-aprendizado , #family {
   flex-grow: 1;
-}
-
-#conteudo-aprendizado {
-  /* display: flex; */
 }
 
 #avaliacao {
@@ -156,7 +148,7 @@ main #trybewarts-forms-logo {
 
 #avaliacao div {
   flex-grow: 1;
-}  
+}
 
 #family {
   display: flex;
@@ -175,13 +167,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-
-
-#trybewarts-forms-logo {
-  display: flex;
-  align-self: center;
 }
 
 .avaluation {
