@@ -23,14 +23,9 @@
         <main>
             <form action="" id="evaluation-form">
                 <h2>Formulário de Avaliação</h2>
-                <div id="conteudo-inicio">
-                    
-                        
+                <div id="conteudo-inicio"> 
                         <input type="text" id="input-name" placeholder='Nome'> 
-                        
                         <input type="text" id="input-lastname" placeholder='Sobrenome'>
-                    
-                       
                         <input type="text" id="input-email" placeholder='Email'>
                         <label for="">Casa:</label>
                             <select name="" id="house">
@@ -47,8 +42,8 @@
                                     Pytherina
                                 </option>
                             </select>
-                   
                 </div>
+                <hr>
                 <div id="conteudo-centro">
                    <div id="family">
                         <label for="" id="label-family">Qual sua família?</label>
@@ -65,24 +60,40 @@
                             <label for="FullStack">FullStack</label>
                         </div>
                     </div>
-                    <div>
+                    <div id="conteudo-aprendizado">
                         <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
                         <br>
-                        <label for="hofs">HoFs</label> 
-                        <input type="checkbox" value="HoFs" id="hofs">
-                        <label for="Jest">Jest</label>
-                        <input type="checkbox" value="Jest" id="Jest">
-                        <label for="Promises">Promises</label>
-                        <input type="checkbox" value="Promises" id="Promises">
-                        <label for="React">React</label>
-                        <input type="checkbox" value="React" id="React">
-                        <label for="SQL">SQL</label>
-                        <input type="checkbox" value="SQL" id="SQL">
-                        <label for="Python">Python</label>
-                        <input type="checkbox" value="Python" id="Python">
+                        <div>
+                            <label for="hofs">HoFs</label> 
+                            <input type="checkbox" value="HoFs" id="hofs">  
+                        </div>
+                        <div>
+                            <label for="Jest">Jest</label>
+                            <input type="checkbox" value="Jest" id="Jest">
+                        </div>
+                        <div>
+                            <label for="Promises">Promises</label>
+                            <input type="checkbox" value="Promises" id="Promises">
+                        </div>
+                        <div>
+                           <label for="React">React</label>
+                            <input type="checkbox" value="React" id="React"> 
+                        </div>
+                        <div>
+                            <label for="SQL">SQL</label>
+                            <input type="checkbox" value="SQL" id="SQL">
+                        </div>
+                        <div>
+                           <label for="Python">Python</label>
+                            <input type="checkbox" value="Python" id="Python"> 
+                        </div>
                     </div> 
                 </div>
-                <div>
+                <hr>
+                <div id="avaliacao">
+                    <div>
+                        
+                    
                     <label for="" id="label-rate">"Como você avalia a Trybewarts?"</label>
                     <input type="radio" name="rate" id="1" value="1">
                     <label for="1">1</label>
@@ -104,6 +115,7 @@
                     <label for="9">9</label>
                     <input type="radio" name="rate" id="10" value="10">
                     <label for="10">10</label> 
+                    </div>
                 </div>
                 <label for="" class="textarea">Deixe seu comentário:</label>
                 <textarea name="" id="textarea" cols="30" rows="10" maxlength="500"></textarea> 
@@ -116,6 +128,7 @@
             <div id= 'div-meio'></div>
             <img src="images/trybewarts-colored.svg" alt="Logo Trybewarts Formulário" id="trybewarts-forms-logo">
         </main>
+
         <script src="script.js"></script>
     </body>
     <footer>

@@ -22,25 +22,30 @@ body {
   display: flex;
   flex-direction: row;  
 }
+
 #email, #password, #btn-login {
   padding: 8px;
   margin: 7px;
   border-radius: 10px;
   border: none;
 }
+
 #input-name, #input-lastname, #input-email, #house {
-  border-radius: 4px;
+  border-radius: 8px;
   padding: 4px;
   border: none;
   margin: 4px;
+  height: 40px;
   width: 230px;
+  flex-grow: 1;
+  font-size: 1.2rem;
 }
 
 #conteudo-inicio {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  
+  margin-bottom: 20px;
 }
 
 #house {
@@ -67,6 +72,7 @@ main {
   display: flex;
   justify-content: center;
   gap: 80px;
+  align-items: stretch;
 }
 
 main #evaluation-form {
@@ -74,6 +80,7 @@ main #evaluation-form {
   width: 675px;
   flex-direction: column;
   margin: 30px;
+  font-size: 1.2rem;
 }
 
 h2 {
@@ -87,17 +94,44 @@ main #trybewarts-forms-logo {
 
 #conteudo-centro {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  margin: 15px 0;
+  gap: 5px
 }
+
+#conteudo-aprendizado, #family {
+  flex-grow: 1;
+}
+
+#conteudo-aprendizado {
+  /* display: flex; */
+}
+
+#avaliacao {
+  display: flex;
+  margin: 15px 0;
+  align-items: stretch;
+}
+
+#avaliacao div {
+  flex-grow: 1;
+}  
 
 #family {
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
 
 h3 {
   display: flex;
   justify-content: center;
+}
+
+footer {
+  height: 50px;
   background-color: gray;
-  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
