@@ -28,3 +28,17 @@ function habilitaBotao() {
 }
 
 checkAgreement.addEventListener('click', habilitaBotao);
+
+/* Adicionar um contador de caracteres. Source link: https://www.youtube.com/watch?v=fncsoVdcd_c&t=911s */
+const counter = document.getElementById('counter');
+const textarea = document.getElementById('textarea');
+
+function counterCharacters() {
+  const caracteresTextarea = textarea.value;
+  const limite = 500;
+  const caracteresDigitados = caracteresTextarea.length;
+  const caracteresRestantes = limite - caracteresDigitados;
+  counter.innerHTML = caracteresRestantes;
+}
+
+textarea.addEventListener('keyup', counterCharacters);
