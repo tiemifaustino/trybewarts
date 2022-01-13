@@ -155,7 +155,7 @@ main #trybewarts-forms-logo {
   margin-left: 40px;
 }
 
-#conteudo-aprendizado , #family {
+#conteudo-aprendizado , .family {
   flex-grow: 1;
 }
 
@@ -168,7 +168,7 @@ main #trybewarts-forms-logo {
   flex-grow: 1;
 }
 
-#family {
+.family {
   display: flex;
   flex-direction: column;
   gap: 10px;
