@@ -33,8 +33,15 @@ body {
 }
 
 #btn-login {
+  background-color: rgb(130, 0, 182);
+  color: white;
   margin-right: 30px;
   width: 100px;
+}
+
+#btn-login:hover {
+  background-color: rgb(79, 0, 110);
+  transition: 0.3s;
 }
 
 .button {
@@ -42,9 +49,11 @@ body {
   color: white;
 }
 
-.button:hover {
-  background-color: rgb(79, 0, 110);
-  transition: 0.3s;
+.disabled {
+  background-color: rgb(130, 0, 182);
+  color: white;
+  opacity: 0.6;
+  cursor: not-allowed;
 }
 
 #input-name , #input-lastname , #input-email , #house {

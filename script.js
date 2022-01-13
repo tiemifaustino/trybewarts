@@ -29,6 +29,16 @@ function habilitaBotao() {
 
 checkAgreement.addEventListener('click', habilitaBotao);
 
+function habilitaCorBotao() {
+  if (checkAgreement.checked) {
+    buttonSubmit.className = 'button';
+  } else {
+    buttonSubmit.className = 'disabled';
+  }
+}
+
+checkAgreement.addEventListener('click', habilitaCorBotao);
+
 /* Adicionar um contador de caracteres. Source link: https://www.youtube.com/watch?v=fncsoVdcd_c&t=911s */
 const counter = document.getElementById('counter');
 const textarea = document.getElementById('textarea');
