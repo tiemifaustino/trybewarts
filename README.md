@@ -39,4 +39,4 @@ O tema desse projeto é baseado na obra 'Harry Potter', de J. K. Rowling.
 
 ## 📹 Visualização
 
-<img  alt="login" width="250" src="./images/trybewarts.png" />
+<img  alt="login" width="900" src="./images/trybewarts.png" />
